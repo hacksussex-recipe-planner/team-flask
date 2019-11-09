@@ -8,7 +8,7 @@ ga = GeneticAlgorithm()
 def hello():
     return "Hello World!"
 
-@app.route('/get_recipes/<uuid>', method=['GET', 'POST'])    
+@app.route('/get_recipes/<uuid>', methods=['GET', 'POST'])    
 def get_recipes(uuid):
     content = request.json
     data = ga.run_algorithm(r"C:\Users\kacpe\Desktop\Github\team-flask\ml\data.json", content)
