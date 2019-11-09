@@ -8,10 +8,10 @@ ga = GeneticAlgorithm()
 def hello():
     return "Hello World!"
 
-@app.route('/get_recipes/<uuid>', methods=['GET', 'POST'])    
-def get_recipes(uuid):
+@app.route('/get_recipes', methods=['GET', 'POST'])    
+def recipes_list():
     content = request.json
-    data = ga.run_algorithm(r"C:\Users\kacpe\Desktop\Github\team-flask\ml\data.json", content)
+    data = ga.run_algorithm(r"C:\Users\kacpe\Desktop\Github\team-flask\flask-app\ml\data.json", content)
     return jsonify(data)
 
 if __name__ == '__main__':

@@ -1,101 +1,208 @@
 {
-    "0": {
-        "name_of_recipe": "Spaghetti",
-        "calories": 300,
-        "proteins": 50,
-        "carbohydrates": 100,
-        "fat": 10,
-        "prep_instruction": "Do it well",
-        "meal_type": "lunch"
-    },
     "1": {
-        "name_of_recipe": "Pizza",
-        "calories": 500,
-        "proteins": 150,
-        "carbohydrates": 10,
-        "fat": 100,
-        "prep_instruction": "Do it well",
-        "meal_type": "lunch"
+        "name of recipe": "Carne Asada Tacos",
+        "calories": "506",
+        "proteins": "32",
+        "carbohydrates": "48",
+        "fat": "22",
+        "ingredient": {
+            "white vinegar(cups)": "0.5",
+            "chilli powder(tablespoons)": "2",
+            "extra-virgin olive oil(tablespoons)": "2",
+            "salt(teaspoons)": "2.75",
+            "garlic powder(teaspoon)": "1",
+            "flank steak(pounds)": "2",
+            "tomatoes(pounds)": "1",
+            "jalapeno peppers": "2",
+            "chopped onions(cups)": "0.5",
+            "cilantro(cups)": "0.5",
+            "avocados": "1",
+            "lime": "1",
+            "whole-wheat flour tortillas": "16",
+            "Cotija cheese(cups)": "0.3"
+        },
+        "prep_instructions": [
+            "None"
+        ],
+        "meal_type": "Dinner"
     },
     "2": {
-        "name_of_recipe": "Spinach",
-        "calories": 200,
-        "proteins": 50,
-        "carbohydrates": 100,
-        "fat": 30,
-        "prep_instruction": "Do it well",
-        "meal_type": "breakfast"
+        "name of recipe": "Mac & Cheese",
+        "calories": "501",
+        "proteins": "20",
+        "carbohydrates": "53",
+        "fat": "25",
+        "ingredient": {
+            "whole-wheat rotini(ounces)": "8",
+            "chicken broth(cups)": "1.5",
+            "low-fat milk(cups)": "0.75",
+            "salt(teaspoons)": "0.5",
+            "ground pepper(teaspoon)": "0.25",
+            "frozen baby broccoli floret(cups)": "2",
+            "extra-sharp cheddar cheese(cups)": "1",
+            "reduced-fat cream cheese(ounces)": "2"
+        },
+        "prep_instructions": {
+            "1": "Combine pasta, broth, milk, salt and pepper in an electric pressure cooker. Close and lock the lid. Cook at high pressure for 7 minutes.",
+            "2": "Release the pressure. Add broccoli, Cheddar and cream cheese. Stir until the cheese has melted. Let stand for 5 minutes. Stir again and serve."
+        },
+        "meal_type": "Dinner"
     },
     "3": {
-        "name_of_recipe": "Burritto",
-        "calories": 640.5,
-        "proteins": 350,
-        "carbohydrates": 340,
-        "fat": 150,
-        "prep_instruction": "Do it well",
-        "meal_type": "dinner"
+        "name of recipe": "Carne Asada Tacos",
+        "calories": "506",
+        "proteins": "32",
+        "carbohydrates": "48",
+        "fat": "22",
+        "ingredient": {
+            "white vinegar(cups)": "0.5",
+            "chilli powder(tablespoons)": "2",
+            "extra-virgin olive oil(tablespoons)": "2",
+            "salt(teaspoons)": "2.75",
+            "garlic powder(teaspoon)": "1",
+            "flank steak(pounds)": "2",
+            "tomatoes(pounds)": "1",
+            "jalapeno peppers": "2",
+            "chopped onions(cups)": "0.5",
+            "cilantro(cups)": "0.5",
+            "avocados": "1",
+            "lime": "1",
+            "whole-wheat flour tortillas": "16",
+            "Cotija cheese(cups)": "0.3"
+        }
     },
     "4": {
-        "name_of_recipe": "Ice cream",
-        "calories": 500,
-        "proteins": 50,
-        "carbohydrates": 300,
-        "fat": 100,
-        "prep_instruction": "Do it well",
-        "meal_type": "snack"
+        "name of recipe": "Lemon Sopressata Chicken",
+        "calories": "516",
+        "proteins": "33",
+        "carbohydrates": "67",
+        "fat": "13",
+        "ingredient": {
+            "8-ounce boneless, skinless chicken breasts": "2",
+            "all-purpose flour(tablespoons)": "2",
+            "tomato paste(tablespoons)": "1",
+            "diced sopressata(cups)": "0.5",
+            "medium lemon": "1"
+        },
+        "prep_instructions": {
+            "1": "Cut chicken in half crosswise and sprinkle with ¼ teaspoon each salt and pepper. Place flour on a plate and dredge both sides of the chicken in it. Shake off any excess. Whisk tomato paste and ⅓ cup water in a small bowl and place near the stove.",
+            "2": "Heat 2 tablespoons oil in a large skillet over medium heat. Add the chicken and cook, turning once, until browned on both sides, about 10 minutes. Transfer to a plate.",
+            "3": "Add sopressata (or salami) to the pan and cook, stirring, until browned, 1 to 2 minutes. Stir in the tomato paste mixture and lemon. Return the chicken to the pan, cover and cook, turning once, until the sauce has thickened and an instant-read thermometer inserted into the thickest part of the chicken registers 165°F, 5 to 7 minutes."
+        },
+        "meal_type": "Dinner"
     },
     "5": {
-        "name_of_recipe": "chips",
-        "calories": 470,
-        "proteins": 150,
-        "carbohydrates": 10,
-        "fat": 300,
-        "prep_instruction": "Do it well",
-        "meal_type": "snack"
+        "name of recipe": "Lentil & Roasted Vegetable Salad with Green Goddess Dressing",
+        "calories": "496",
+        "proteins": "20",
+        "carbohydrates": "52",
+        "fat": "25",
+        "ingredient": {
+            "broccoli floret(cups)": "4",
+            "green beans(cups)": "2",
+            "extra-virgin olive oil(tablespoons)": "1",
+            "salt(teaspoons)": "0.5",
+            "ground pepper(teaspoon)": "0.5",
+            "water(cups)": "2.5",
+            "French green lentils(cups)": "0.75",
+            "chopped fresh herbs(cups)": "0.5",
+            "mayonnaise(cups)": "0.3",
+            "buttermilk(cups)": "0.25",
+            "lemon juice(tablespoons)": "1",
+            "white miso(teaspoons)": "1.5",
+            "small clove garlic": "1",
+            "green leaf lettuce(cups)": "8",
+            "thinly sliced kale(cups)": "2"
+        },
+        "prep_instructions": {
+            "1": "Preheat oven to 400°F.",
+            "2": "Toss broccoli and green beans with oil and ¼ teaspoon each salt and pepper on a large rimmed baking sheet. Roast, stirring once, until tender, about 20 minutes.",
+            "3": "Meanwhile, bring water and lentils to a boil in a medium saucepan over high heat. Reduce heat to a simmer, cover and cook until tender, about 25 minutes. Rinse and drain well.",
+            "4": "Combine herbs, mayonnaise, buttermilk, lemon juice, miso, garlic and the remaining ¼ teaspoon each salt and pepper in a food processor or blender. Process until smooth.",
+            "5": "Gently toss escarole (or lettuce) and kale with the roasted vegetables and lentils in a large bowl. Serve with the dressing."
+        },
+        "meal_type": "Lunch"
     },
     "6": {
-        "name_of_recipe": "Pizza",
-        "calories": 500,
-        "proteins": 150,
-        "carbohydrates": 10,
-        "fat": 100,
-        "prep_instruction": "Do it well",
-        "meal_type": "lunch"
+        "name of recipe": "Smoky Shrimp, Corn & Pea One-Pot Pasta",
+        "calories": "497",
+        "proteins": "28",
+        "carbohydrates": "55",
+        "fat": "21",
+        "ingredient": {
+            "white-wheat pasta shells(ounces)": "8",
+            "unpeeled raw deveined shrimp(pounds)": "1",
+            "chopped spinach(cups)": "4",
+            "corn kernels(cups)": "1",
+            "peas(cups)": "1",
+            "chopped medium onion": "1",
+            "clove garlics": "4",
+            "tomato paste(tablespoons)": "2",
+            "smoked paprika(teapoons)": "1.75",
+            "saffron(teaspoons)": "0.25",
+            "salt(teapoons)": "0.75",
+            "water(cups)": "4",
+            "chopped fresh parsley(tablespoons)": "2"
+        },
+        "prep_instructions": {
+            "1": "Combine pasta, shrimp, spinach, corn, peas, onion, garlic, tomato paste, paprika, saffron and salt in a large pot. Stir in water. Bring to a boil over high heat. Boil, stirring frequently, until the pasta is cooked and the water has almost evaporated, 10 to 12 minutes. Remove from heat and let stand, stirring occasionally, for 5 minutes. Serve sprinkled with parsley."
+        },
+        "meal_type": "Lunch"
     },
     "7": {
-        "name_of_recipe": "Spinach",
-        "calories": 200,
-        "proteins": 50,
-        "carbohydrates": 100,
-        "fat": 30,
-        "prep_instruction": "Do it well",
-        "meal_type": "breakfast"
+        "name of recipe": "Roasted Chicken Thighs, Potatoes & Scallions with Herb Vinaigrette",
+        "calories": "518",
+        "proteins": "28",
+        "carbohydrates": "53",
+        "fat": "22",
+        "ingredient": {
+            "new potatoes(ounces)": "12",
+            "scallions(bunches)": "2",
+            "extra-virgin olive oil(tablespoons)": "4",
+            "ground pepper(teaspoons)": "0.75",
+            "salt(teaspoon)": "0.5",
+            "large boneless, skinless chicken thighs": "4",
+            "sherry vinegar(tablespoons)": "2",
+            "chopped fresh herbs(tablespoons)": "2",
+            "whole-grain mustard(tablespoon)": "1",
+            "finely chopped shallot(tablespoon)": "1"
+        },
+        "prep_instructions": {
+            "1": "Preheat oven to 450°F.",
+            "2": "Toss potatoes and scallions with 4 teaspoons oil and ¼ teaspoon each pepper and salt in a large bowl. Spread evenly on a large rimmed baking sheet. Place chicken on top; drizzle with 2 teaspoons oil and sprinkle with ¼ teaspoon each pepper and salt. Roast until an instant-read thermometer inserted into the thickest part registers 165°F and the potatoes are tender, 18 to 20 minutes.",
+            "3": "Meanwhile, whisk the remaining 2 tablespoons oil and ¼ teaspoon pepper with vinegar, herbs, mustard and shallot in a small bowl. Serve drizzled over the chicken and vegetables."
+        },
+        "meal_type": "Dinner"
     },
     "8": {
-        "name_of_recipe": "Burritto",
-        "calories": 640.5,
-        "proteins": 350,
-        "carbohydrates": 340,
-        "fat": 150,
-        "prep_instruction": "Do it well",
-        "meal_type": "dinner"
-    },
-    "9": {
-        "name_of_recipe": "Ice cream",
-        "calories": 500,
-        "proteins": 50,
-        "carbohydrates": 300,
-        "fat": 100,
-        "prep_instruction": "Do it well",
-        "meal_type": "snack"
-    },
-    "10": {
-        "name_of_recipe": "chips",
-        "calories": 470,
-        "proteins": 150,
-        "carbohydrates": 10,
-        "fat": 300,
-        "prep_instruction": "Do it well",
-        "meal_type": "snack"
+        "name of recipe": "Beef Kofta with Bulgar & Kale Salad",
+        "calories": "525",
+        "proteins": "32",
+        "carbohydrates": "49",
+        "fat": "23",
+        "ingredient": {
+            "water(cups)": "2",
+            "bulgur(cups)": "1",
+            "ground beef(pounds)": "1",
+            "finely chopped red onions(cups)": "0.5",
+            "slivered, divided red onions(cups)": "0.25",
+            "medium cloves garlic": "2",
+            "ground cumin(teaspoons)": "2",
+            "salt(teaspoons)": "0.75",
+            "ground pepper(teaspoons)": "0.5",
+            "packed chopped kale(cups)": "4",
+            "halved cherry tomatoes(cups)": "1",
+            "crumbled feta cheese(tablespoons)": "3",
+            "red-win vinegar(tablespoons)": "2",
+            "oregano(teaspoons)": "0.5"
+        },
+        "prep_instructions": {
+            "1": "Bring water and bulgur to a boil in a medium saucepan. Cover, reduce heat to maintain a simmer and cook until tender, about 12 minutes. Drain any excess liquid. Spread on a rimmed baking sheet to cool for 10 minutes.",
+            "2": "Position rack in upper third of oven. Preheat broiler to high.",
+            "3": "Transfer 1 cup of the bulgur to a medium bowl. Add beef, chopped onion, garlic, cumin, ½ teaspoon salt and ¼ teaspoon pepper to the bowl; gently knead together until just combined. (Do not overmix.) With damp hands, form the mixture into 8 cigar-shaped patties, 4 inches long and 1½ inches thick. Transfer the remaining bulgur to a large bowl.",
+            "4": "Coat the baking sheet with cooking spray and place the kofta patties on it. Broil, turning once, until an instant-read thermometer registers 160°F, 10 to 12 minutes total.",
+            "5": "Meanwhile, add kale, tomatoes, feta, oil, vinegar, oregano, the slivered onion and the remaining ¼ teaspoon each salt and pepper to the bulgur; gently toss to combine. Serve with the kofta."
+        },
+        "meal_type": "Lunch"
     }
 }

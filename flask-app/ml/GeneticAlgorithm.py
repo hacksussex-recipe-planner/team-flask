@@ -11,7 +11,7 @@ class DataLoader_Mixin():
 
     def data_load(self, file_path: str, return_data: bool = False):
         with open(file_path) as json_read:
-            if isinstance(json_read, dict()):
+            if isinstance(json_read, type(dict())):
                 return json_read
             if return_data == True:
                 return json.load(json_read)
@@ -19,7 +19,7 @@ class DataLoader_Mixin():
                 self.data = json.load(json_read)
 
     def model_input_load(self, json_file):
-        if isinstance(json_file, dict()):
+        if isinstance(json_file, type(dict())):
             dict_temp = json_file
         else: 
             dict_temp = json.load(json_file)
