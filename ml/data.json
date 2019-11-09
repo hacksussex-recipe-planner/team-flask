@@ -1,0 +1,101 @@
+{
+    "0": {
+        "name_of_recipe": "Spaghetti",
+        "calories": 300,
+        "proteins": 50,
+        "carbohydrates": 100,
+        "fat": 10,
+        "prep_instruction": "Do it well",
+        "meal_type": "lunch"
+    },
+    "1": {
+        "name_of_recipe": "Pizza",
+        "calories": 500,
+        "proteins": 150,
+        "carbohydrates": 10,
+        "fat": 100,
+        "prep_instruction": "Do it well",
+        "meal_type": "lunch"
+    },
+    "2": {
+        "name_of_recipe": "Spinach",
+        "calories": 200,
+        "proteins": 50,
+        "carbohydrates": 100,
+        "fat": 30,
+        "prep_instruction": "Do it well",
+        "meal_type": "breakfast"
+    },
+    "3": {
+        "name_of_recipe": "Burritto",
+        "calories": 640.5,
+        "proteins": 350,
+        "carbohydrates": 340,
+        "fat": 150,
+        "prep_instruction": "Do it well",
+        "meal_type": "dinner"
+    },
+    "4": {
+        "name_of_recipe": "Ice cream",
+        "calories": 500,
+        "proteins": 50,
+        "carbohydrates": 300,
+        "fat": 100,
+        "prep_instruction": "Do it well",
+        "meal_type": "snack"
+    },
+    "5": {
+        "name_of_recipe": "chips",
+        "calories": 470,
+        "proteins": 150,
+        "carbohydrates": 10,
+        "fat": 300,
+        "prep_instruction": "Do it well",
+        "meal_type": "snack"
+    },
+    "6": {
+        "name_of_recipe": "Pizza",
+        "calories": 500,
+        "proteins": 150,
+        "carbohydrates": 10,
+        "fat": 100,
+        "prep_instruction": "Do it well",
+        "meal_type": "lunch"
+    },
+    "7": {
+        "name_of_recipe": "Spinach",
+        "calories": 200,
+        "proteins": 50,
+        "carbohydrates": 100,
+        "fat": 30,
+        "prep_instruction": "Do it well",
+        "meal_type": "breakfast"
+    },
+    "8": {
+        "name_of_recipe": "Burritto",
+        "calories": 640.5,
+        "proteins": 350,
+        "carbohydrates": 340,
+        "fat": 150,
+        "prep_instruction": "Do it well",
+        "meal_type": "dinner"
+    },
+    "9": {
+        "name_of_recipe": "Ice cream",
+        "calories": 500,
+        "proteins": 50,
+        "carbohydrates": 300,
+        "fat": 100,
+        "prep_instruction": "Do it well",
+        "meal_type": "snack"
+    },
+    "10": {
+        "name_of_recipe": "chips",
+        "calories": 470,
+        "proteins": 150,
+        "carbohydrates": 10,
+        "fat": 300,
+        "prep_instruction": "Do it well",
+        "meal_type": "snack"
+    }
+}
