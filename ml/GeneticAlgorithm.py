@@ -3,33 +3,39 @@ import random
 
 from deap import base, creator, tools
 
+
 class DataLoader_Mixin():
     """ DataLoader_Mixin"""
-    
     def __init__(self):
         pass
 
     def data_load(self, file_path: str, return_data: bool = False):
         with open(file_path) as json_read:
+            if isinstance(json_read, dict()):
+                return json_read
             if return_data == True:
                 return json.load(json_read)
             else:
                 self.data = json.load(json_read)
 
     def model_input_load(self, json_file):
-        dict_temp = json_file
-        
+        if isinstance(json_file, dict()):
+            dict_temp = json_file
+        else: 
+            dict_temp = json.load(json_file)
+
         self.calories = dict_temp["calories"]
         self.proteins = dict_temp["proteins"]
         self.carbohydrates = dict_temp["carbohydrates"]
         self.fat = dict_temp["fat"]
+        self.meals_per_day = dict_temp["meals_per_day"]
     
     def data_sample(n: int):
         pass
 
+
 class GeneticAlgorithm(DataLoader_Mixin):
     """ Genetic Algorithm class"""
-    
     def __init__(self, ind_size: int = 10):
         super().__init__()
         self.ind_size = ind_size
@@ -53,6 +59,8 @@ class GeneticAlgorithm(DataLoader_Mixin):
     def run_algorithm(self, file_path: str, json_file) -> dict():
         super().data_load(file_path)
         super().model_input_load(json_file)
+        keys = random.sample(list(self.data), self.meals_per_day)
+        return [self.data[k] for k in keys]
         
     def _evaluate(self, instance):
         cals = 0
@@ -72,4 +80,4 @@ if __name__ == "__main__":
     ga = GeneticAlgorithm()
     data_gen = DataLoader_Mixin()
     json_file = data_gen.data_load("./sample.json", True)
-    ga.run_algorithm("./data.json", json_file)
+    print(ga.run_algorithm("./data.json", json_file))
