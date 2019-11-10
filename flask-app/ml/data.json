@@ -204,5 +204,88 @@
             "5": "Meanwhile, add kale, tomatoes, feta, oil, vinegar, oregano, the slivered onion and the remaining ¼ teaspoon each salt and pepper to the bulgur; gently toss to combine. Serve with the kofta."
         },
         "meal_type": "Lunch"
+    },
+
+    "9": {
+        "name of recipe": "Carne Asada Tacos",
+        "calories": "1506",
+        "proteins": "32",
+        "carbohydrates": "48",
+        "fat": "22",
+        "ingredient": {
+            "white vinegar(cups)": "0.5",
+            "chilli powder(tablespoons)": "2",
+            "extra-virgin olive oil(tablespoons)": "2",
+            "salt(teaspoons)": "2.75",
+            "garlic powder(teaspoon)": "1",
+            "flank steak(pounds)": "2",
+            "tomatoes(pounds)": "1",
+            "jalapeno peppers": "2",
+            "chopped onions(cups)": "0.5",
+            "cilantro(cups)": "0.5",
+            "avocados": "1",
+            "lime": "1",
+            "whole-wheat flour tortillas": "16",
+            "Cotija cheese(cups)": "0.3"
+        },
+        "prep_instructions": [
+            "None"
+        ],
+        "meal_type": "Dinner"
+    },
+
+    "10": {
+        "name of recipe": "Carne Asada Tacos",
+        "calories": "906",
+        "proteins": "32",
+        "carbohydrates": "48",
+        "fat": "22",
+        "ingredient": {
+            "white vinegar(cups)": "0.5",
+            "chilli powder(tablespoons)": "2",
+            "extra-virgin olive oil(tablespoons)": "2",
+            "salt(teaspoons)": "2.75",
+            "garlic powder(teaspoon)": "1",
+            "flank steak(pounds)": "2",
+            "tomatoes(pounds)": "1",
+            "jalapeno peppers": "2",
+            "chopped onions(cups)": "0.5",
+            "cilantro(cups)": "0.5",
+            "avocados": "1",
+            "lime": "1",
+            "whole-wheat flour tortillas": "16",
+            "Cotija cheese(cups)": "0.3"
+        },
+        "prep_instructions": [
+            "None"
+        ],
+        "meal_type": "Dinner"
+    },
+    "11": {
+        "name of recipe": "Carne Asada Tacos",
+        "calories": "306",
+        "proteins": "32",
+        "carbohydrates": "48",
+        "fat": "22",
+        "ingredient": {
+            "white vinegar(cups)": "0.5",
+            "chilli powder(tablespoons)": "2",
+            "extra-virgin olive oil(tablespoons)": "2",
+            "salt(teaspoons)": "2.75",
+            "garlic powder(teaspoon)": "1",
+            "flank steak(pounds)": "2",
+            "tomatoes(pounds)": "1",
+            "jalapeno peppers": "2",
+            "chopped onions(cups)": "0.5",
+            "cilantro(cups)": "0.5",
+            "avocados": "1",
+            "lime": "1",
+            "whole-wheat flour tortillas": "16",
+            "Cotija cheese(cups)": "0.3"
+        },
+        "prep_instructions": [
+            "None"
+        ],
+        "meal_type": "Dinner"
     }
 }
