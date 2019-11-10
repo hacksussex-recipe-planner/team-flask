@@ -5,26 +5,32 @@
         "proteins": "32",
         "carbohydrates": "48",
         "fat": "22",
-        "ingredient": {
-            "white vinegar(cups)": "0.5",
-            "chilli powder(tablespoons)": "2",
-            "extra-virgin olive oil(tablespoons)": "2",
-            "salt(teaspoons)": "2.75",
-            "garlic powder(teaspoon)": "1",
-            "flank steak(pounds)": "2",
-            "tomatoes(pounds)": "1",
-            "jalapeno peppers": "2",
-            "chopped onions(cups)": "0.5",
-            "cilantro(cups)": "0.5",
-            "avocados": "1",
-            "lime": "1",
-            "whole-wheat flour tortillas": "16",
-            "Cotija cheese(cups)": "0.3"
-        },
-        "prep_instructions": [
-            "None"
+        "ingredient": [
+            {
+                "white vinegar(cups)": "0.5",
+                "chilli powder(tablespoons)": "2",
+                "extra-virgin olive oil(tablespoons)": "2",
+                "salt(teaspoons)": "2.75",
+                "garlic powder(teaspoon)": "1",
+                "flank steak(pounds)": "2",
+                "tomatoes(pounds)": "1",
+                "jalapeno peppers": "2",
+                "chopped onions(cups)": "0.5",
+                "cilantro(cups)": "0.5",
+                "avocados": "1",
+                "lime": "1",
+                "whole-wheat flour tortillas": "16",
+                "Cotija cheese(cups)": "0.3"
+            }
         ],
-        "meal_type": "Dinner"
+        "prep_instructions": {
+            "1": "Whisk vinegar, chili powder, oil, 2 teaspoons salt and garlic powder in a 9-by-13-inch baking dish. Add steak and turn to coat. Cover and marinate in the refrigerator for at least 1 hour and up to 24 hours.",
+            "2": "Make salsa about 20 minutes (and up to 2 hours) before cooking the meat: Gently combine tomatoes, jalapenos (or chiles) to taste, onion, cilantro, avocado, lime juice and the remaining ¾ teaspoon salt in a medium bowl.",
+            "3": "Position rack in upper third of oven; preheat broiler.",
+            "4": "Place the steak on a rimmed baking sheet (discard the marinade). Broil 3 to 4 minutes per side for medium. Transfer to a clean cutting board and let rest for 5 minutes. Thinly slice against the grain. Serve the steak wrapped in warm tortillas and topped with the salsa and cheese."
+        },
+        "meal_type": "Lunch",
+        "picture": "https://static.onecms.io/wp-content/uploads/sites/44/2018/12/27122759/3757923.jpg"
     },
     "2": {
         "name of recipe": "Mac & Cheese",
@@ -32,88 +38,73 @@
         "proteins": "20",
         "carbohydrates": "53",
         "fat": "25",
-        "ingredient": {
-            "whole-wheat rotini(ounces)": "8",
-            "chicken broth(cups)": "1.5",
-            "low-fat milk(cups)": "0.75",
-            "salt(teaspoons)": "0.5",
-            "ground pepper(teaspoon)": "0.25",
-            "frozen baby broccoli floret(cups)": "2",
-            "extra-sharp cheddar cheese(cups)": "1",
-            "reduced-fat cream cheese(ounces)": "2"
-        },
+        "ingredient": [
+            {
+                "whole-wheat rotini(ounces)": "8",
+                "chicken broth(cups)": "1.5",
+                "low-fat milk(cups)": "0.75",
+                "salt(teaspoons)": "0.5",
+                "ground pepper(teaspoon)": "0.25",
+                "frozen baby broccoli floret(cups)": "2",
+                "extra-sharp cheddar cheese(cups)": "1",
+                "reduced-fat cream cheese(ounces)": "2"
+            }
+        ],
         "prep_instructions": {
             "1": "Combine pasta, broth, milk, salt and pepper in an electric pressure cooker. Close and lock the lid. Cook at high pressure for 7 minutes.",
             "2": "Release the pressure. Add broccoli, Cheddar and cream cheese. Stir until the cheese has melted. Let stand for 5 minutes. Stir again and serve."
         },
-        "meal_type": "Dinner"
+        "meal_type": "Dinner",
+        "picture": "https://static.onecms.io/wp-content/uploads/sites/44/2018/12/27122800/44795541.jpg"
     },
     "3": {
-        "name of recipe": "Carne Asada Tacos",
-        "calories": "506",
-        "proteins": "32",
-        "carbohydrates": "48",
-        "fat": "22",
-        "ingredient": {
-            "white vinegar(cups)": "0.5",
-            "chilli powder(tablespoons)": "2",
-            "extra-virgin olive oil(tablespoons)": "2",
-            "salt(teaspoons)": "2.75",
-            "garlic powder(teaspoon)": "1",
-            "flank steak(pounds)": "2",
-            "tomatoes(pounds)": "1",
-            "jalapeno peppers": "2",
-            "chopped onions(cups)": "0.5",
-            "cilantro(cups)": "0.5",
-            "avocados": "1",
-            "lime": "1",
-            "whole-wheat flour tortillas": "16",
-            "Cotija cheese(cups)": "0.3"
-        }
-    },
-    "4": {
         "name of recipe": "Lemon Sopressata Chicken",
         "calories": "516",
         "proteins": "33",
         "carbohydrates": "67",
         "fat": "13",
-        "ingredient": {
-            "8-ounce boneless, skinless chicken breasts": "2",
-            "all-purpose flour(tablespoons)": "2",
-            "tomato paste(tablespoons)": "1",
-            "diced sopressata(cups)": "0.5",
-            "medium lemon": "1"
-        },
+        "ingredient": [
+            {
+                "8-ounce boneless, skinless chicken breasts": "2",
+                "all-purpose flour(tablespoons)": "2",
+                "tomato paste(tablespoons)": "1",
+                "diced sopressata(cups)": "0.5",
+                "medium lemon": "1"
+            }
+        ],
         "prep_instructions": {
             "1": "Cut chicken in half crosswise and sprinkle with ¼ teaspoon each salt and pepper. Place flour on a plate and dredge both sides of the chicken in it. Shake off any excess. Whisk tomato paste and ⅓ cup water in a small bowl and place near the stove.",
             "2": "Heat 2 tablespoons oil in a large skillet over medium heat. Add the chicken and cook, turning once, until browned on both sides, about 10 minutes. Transfer to a plate.",
             "3": "Add sopressata (or salami) to the pan and cook, stirring, until browned, 1 to 2 minutes. Stir in the tomato paste mixture and lemon. Return the chicken to the pan, cover and cook, turning once, until the sauce has thickened and an instant-read thermometer inserted into the thickest part of the chicken registers 165°F, 5 to 7 minutes."
         },
-        "meal_type": "Dinner"
+        "meal_type": "Dinner",
+        "picture": "https://static.onecms.io/wp-content/uploads/sites/44/2018/12/27114159/44734321.jpg"
     },
-    "5": {
+    "4": {
         "name of recipe": "Lentil & Roasted Vegetable Salad with Green Goddess Dressing",
         "calories": "496",
         "proteins": "20",
         "carbohydrates": "52",
         "fat": "25",
-        "ingredient": {
-            "broccoli floret(cups)": "4",
-            "green beans(cups)": "2",
-            "extra-virgin olive oil(tablespoons)": "1",
-            "salt(teaspoons)": "0.5",
-            "ground pepper(teaspoon)": "0.5",
-            "water(cups)": "2.5",
-            "French green lentils(cups)": "0.75",
-            "chopped fresh herbs(cups)": "0.5",
-            "mayonnaise(cups)": "0.3",
-            "buttermilk(cups)": "0.25",
-            "lemon juice(tablespoons)": "1",
-            "white miso(teaspoons)": "1.5",
-            "small clove garlic": "1",
-            "green leaf lettuce(cups)": "8",
-            "thinly sliced kale(cups)": "2"
-        },
+        "ingredient": [
+            {
+                "broccoli floret(cups)": "4",
+                "green beans(cups)": "2",
+                "extra-virgin olive oil(tablespoons)": "1",
+                "salt(teaspoons)": "0.5",
+                "ground pepper(teaspoon)": "0.5",
+                "water(cups)": "2.5",
+                "French green lentils(cups)": "0.75",
+                "chopped fresh herbs(cups)": "0.5",
+                "mayonnaise(cups)": "0.3",
+                "buttermilk(cups)": "0.25",
+                "lemon juice(tablespoons)": "1",
+                "white miso(teaspoons)": "1.5",
+                "small clove garlic": "1",
+                "green leaf lettuce(cups)": "8",
+                "thinly sliced kale(cups)": "2"
+            }
+        ],
         "prep_instructions": {
             "1": "Preheat oven to 400°F.",
             "2": "Toss broccoli and green beans with oil and ¼ teaspoon each salt and pepper on a large rimmed baking sheet. Roast, stirring once, until tender, about 20 minutes.",
@@ -121,81 +112,90 @@
             "4": "Combine herbs, mayonnaise, buttermilk, lemon juice, miso, garlic and the remaining ¼ teaspoon each salt and pepper in a food processor or blender. Process until smooth.",
             "5": "Gently toss escarole (or lettuce) and kale with the roasted vegetables and lentils in a large bowl. Serve with the dressing."
         },
-        "meal_type": "Lunch"
+        "meal_type": "Lunch",
+        "picture": "https://static.onecms.io/wp-content/uploads/sites/44/2019/03/27113301/44734181.jpg"
     },
-    "6": {
+    "5": {
         "name of recipe": "Smoky Shrimp, Corn & Pea One-Pot Pasta",
         "calories": "497",
         "proteins": "28",
         "carbohydrates": "55",
         "fat": "21",
-        "ingredient": {
-            "white-wheat pasta shells(ounces)": "8",
-            "unpeeled raw deveined shrimp(pounds)": "1",
-            "chopped spinach(cups)": "4",
-            "corn kernels(cups)": "1",
-            "peas(cups)": "1",
-            "chopped medium onion": "1",
-            "clove garlics": "4",
-            "tomato paste(tablespoons)": "2",
-            "smoked paprika(teapoons)": "1.75",
-            "saffron(teaspoons)": "0.25",
-            "salt(teapoons)": "0.75",
-            "water(cups)": "4",
-            "chopped fresh parsley(tablespoons)": "2"
-        },
+        "ingredient": [
+            {
+                "white-wheat pasta shells(ounces)": "8",
+                "unpeeled raw deveined shrimp(pounds)": "1",
+                "chopped spinach(cups)": "4",
+                "corn kernels(cups)": "1",
+                "peas(cups)": "1",
+                "chopped medium onion": "1",
+                "clove garlics": "4",
+                "tomato paste(tablespoons)": "2",
+                "smoked paprika(teapoons)": "1.75",
+                "saffron(teaspoons)": "0.25",
+                "salt(teapoons)": "0.75",
+                "water(cups)": "4",
+                "chopped fresh parsley(tablespoons)": "2"
+            }
+        ],
         "prep_instructions": {
             "1": "Combine pasta, shrimp, spinach, corn, peas, onion, garlic, tomato paste, paprika, saffron and salt in a large pot. Stir in water. Bring to a boil over high heat. Boil, stirring frequently, until the pasta is cooked and the water has almost evaporated, 10 to 12 minutes. Remove from heat and let stand, stirring occasionally, for 5 minutes. Serve sprinkled with parsley."
         },
-        "meal_type": "Lunch"
+        "meal_type": "Lunch",
+        "picture": "https://static.onecms.io/wp-content/uploads/sites/44/2018/12/27122801/44734191.jpg"
     },
-    "7": {
+    "6": {
         "name of recipe": "Roasted Chicken Thighs, Potatoes & Scallions with Herb Vinaigrette",
         "calories": "518",
         "proteins": "28",
         "carbohydrates": "53",
         "fat": "22",
-        "ingredient": {
-            "new potatoes(ounces)": "12",
-            "scallions(bunches)": "2",
-            "extra-virgin olive oil(tablespoons)": "4",
-            "ground pepper(teaspoons)": "0.75",
-            "salt(teaspoon)": "0.5",
-            "large boneless, skinless chicken thighs": "4",
-            "sherry vinegar(tablespoons)": "2",
-            "chopped fresh herbs(tablespoons)": "2",
-            "whole-grain mustard(tablespoon)": "1",
-            "finely chopped shallot(tablespoon)": "1"
-        },
+        "ingredient": [
+            {
+                "new potatoes(ounces)": "12",
+                "scallions(bunches)": "2",
+                "extra-virgin olive oil(tablespoons)": "4",
+                "ground pepper(teaspoons)": "0.75",
+                "salt(teaspoon)": "0.5",
+                "large boneless, skinless chicken thighs": "4",
+                "sherry vinegar(tablespoons)": "2",
+                "chopped fresh herbs(tablespoons)": "2",
+                "whole-grain mustard(tablespoon)": "1",
+                "finely chopped shallot(tablespoon)": "1"
+            }
+        ],
         "prep_instructions": {
             "1": "Preheat oven to 450°F.",
             "2": "Toss potatoes and scallions with 4 teaspoons oil and ¼ teaspoon each pepper and salt in a large bowl. Spread evenly on a large rimmed baking sheet. Place chicken on top; drizzle with 2 teaspoons oil and sprinkle with ¼ teaspoon each pepper and salt. Roast until an instant-read thermometer inserted into the thickest part registers 165°F and the potatoes are tender, 18 to 20 minutes.",
             "3": "Meanwhile, whisk the remaining 2 tablespoons oil and ¼ teaspoon pepper with vinegar, herbs, mustard and shallot in a small bowl. Serve drizzled over the chicken and vegetables."
         },
-        "meal_type": "Dinner"
+        "meal_type": "Dinner",
+        "picture": "https://static.onecms.io/wp-content/uploads/sites/44/2017/11/27122057/44734271.jpg"
     },
-    "8": {
+    "7": {
         "name of recipe": "Beef Kofta with Bulgar & Kale Salad",
         "calories": "525",
         "proteins": "32",
         "carbohydrates": "49",
         "fat": "23",
-        "ingredient": {
-            "water(cups)": "2",
-            "bulgur(cups)": "1",
-            "ground beef(pounds)": "1",
-            "finely chopped red onions(cups)": "0.5",
-            "slivered, divided red onions(cups)": "0.25",
-            "medium cloves garlic": "2",
-            "ground cumin(teaspoons)": "2",
-            "salt(teaspoons)": "0.75",
-            "ground pepper(teaspoons)": "0.5",
-            "packed chopped kale(cups)": "4",
-            "halved cherry tomatoes(cups)": "1",
-            "crumbled feta cheese(tablespoons)": "3",
-            "red-win vinegar(tablespoons)": "2",
-            "oregano(teaspoons)": "0.5"
-        },
+        "ingredient": [
+            {
+                "water(cups)": "2",
+                "bulgur(cups)": "1",
+                "ground beef(pounds)": "1",
+                "finely chopped red onion(cups)": "0.5",
+                "slivered, divided red onion(cups)": "0.25",
+                "medium cloves garlic": "2",
+                "ground cumin(teaspoons)": "2",
+                "salt(teaspoons)": "0.75",
+                "ground pepper(teaspoons)": "0.5",
+                "packed chopped kale(cups)": "4",
+                "halved cherry tomato(cups)": "1",
+                "crumbled feta cheese(tablespoons)": "3",
+                "red-win vinegar(tablespoons)": "2",
+                "oregano(teaspoons)": "0.5"
+            }
+        ],
         "prep_instructions": {
             "1": "Bring water and bulgur to a boil in a medium saucepan. Cover, reduce heat to maintain a simmer and cook until tender, about 12 minutes. Drain any excess liquid. Spread on a rimmed baking sheet to cool for 10 minutes.",
             "2": "Position rack in upper third of oven. Preheat broiler to high.",
@@ -203,89 +203,405 @@
             "4": "Coat the baking sheet with cooking spray and place the kofta patties on it. Broil, turning once, until an instant-read thermometer registers 160°F, 10 to 12 minutes total.",
             "5": "Meanwhile, add kale, tomatoes, feta, oil, vinegar, oregano, the slivered onion and the remaining ¼ teaspoon each salt and pepper to the bulgur; gently toss to combine. Serve with the kofta."
         },
+        "meal_type": "Lunch",
+        "picture": "https://static.onecms.io/wp-content/uploads/sites/44/2018/12/27122804/44734261.jpg"
+    },
+    "8": {
+        "name of recipe": "Baked Chicken Parmesan",
+        "calories": "385",
+        "proteins": "48",
+        "carbohydrates": "20",
+        "fat": "11",
+        "ingredient": [
+            {
+                "boneless skinless chicken breasts": "2",
+                "Italian seasoned breadcrumbs(cups)": "0.5",
+                "whole wheat Panko breadcrumbs(cups)": "0.25",
+                "freshly grated Parmesan cheese(cups)": "0.25",
+                "garlic powder(teaspoons)": "0.25",
+                "black pepper(teaspoons)": "0.25",
+                "large egg whites": "2",
+                "part-skim mozzarella(ounces)": "4"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Preheat your oven to 400 degrees F. Lightly coat a baking sheet with cooking spray. Cut each chicken breast in half lengthwise so that you have 4 pieces total. Pound each piece to an even 1/2-inch thickness. Set aside.",
+            "2": "In a wide, shallow bowl (a pie dish works well), combine the Italian breadcrumbs, whole wheat Panko breadcrumbs, Parmesan, garlic powder, and pepper. In a separate bowl, whisk together the egg whites until lightly foamy. Cut the mozzarella into 4 slices, or grate and divide into four equal portions.",
+            "3": "Arrange your work station in the following order: pounded chicken, egg whites, breadcrumb mixture, baking sheet. Working one at a time, dip each piece of chicken into the egg whites, shaking off any excess, then the breadcrumbs, gently patting the chicken as needed so that the crumbs stick to all sides. Place on the prepared baking sheet. Lightly coat the tops of the chicken with baking spray.",
+            "4": "Bake until the chicken is cooked through (it should reach an internal temperature of 165 degrees F) and the crumbs are brown, about 15 minutes. Remove from the oven, spoon 2 tablespoons of sauce over each piece of chicken, and top with a slice of mozzarella. Return to the oven and bake until the cheese is melted, about 3-5 additional minutes. Sprinkle with basil and enjoy immediately, topped with extra sauce as desired."
+        },
         "meal_type": "Lunch"
     },
-
     "9": {
-        "name of recipe": "Carne Asada Tacos",
-        "calories": "1506",
-        "proteins": "32",
-        "carbohydrates": "48",
-        "fat": "22",
-        "ingredient": {
-            "white vinegar(cups)": "0.5",
-            "chilli powder(tablespoons)": "2",
-            "extra-virgin olive oil(tablespoons)": "2",
-            "salt(teaspoons)": "2.75",
-            "garlic powder(teaspoon)": "1",
-            "flank steak(pounds)": "2",
-            "tomatoes(pounds)": "1",
-            "jalapeno peppers": "2",
-            "chopped onions(cups)": "0.5",
-            "cilantro(cups)": "0.5",
-            "avocados": "1",
-            "lime": "1",
-            "whole-wheat flour tortillas": "16",
-            "Cotija cheese(cups)": "0.3"
-        },
-        "prep_instructions": [
-            "None"
+        "name of recipe": "Skinny Southwestern Salad",
+        "calories": "282",
+        "proteins": "27.4",
+        "carbohydrates": "22",
+        "fat": "8.7",
+        "ingredient": [
+            {
+                "hearts romaine lettuce": "2",
+                "low-fat cheddar cheese(cups)": "0.5",
+                "canned black beans(cups)": "0.5",
+                "cherry tomatoes(cups)": "1",
+                "Johnsonville Flame Grilled Southwestern Seasoned Chicken Breast(package)": "1",
+                "canned corn(cups)": "0.5",
+                "red onion(cups)": "0.25",
+                "cilantro(cups)": "0.25",
+                "tortilla chips": "12",
+                "Skinny Salsa Ranch(ounces)": "8"
+            }
         ],
-        "meal_type": "Dinner"
+        "prep_instructions": {
+            "1": "Chop the romaine into bite-sized pieces and layer into the bottom of a wide bowl, or if you are meal prepping use 4 air tight containers. Prep veggies, and chop chicken breast into 1/2″-1″ pieces.",
+            "2": "Layer cheese, black beans, tomatoes, chicken, corn, and red onion on top of the lettuce, then sprinkle with cilantro.",
+            "3": "Place the baked corn chips around the side of the bowl, or if you are meal prepping in small containers, put these in a baggie on the side so they don’t get soggy from the moisture of the salad.",
+            "4": "Right before serving, toss the salad with the skinny salsa ranch.",
+            "5": "Meanwhile, add kale, tomatoes, feta, oil, vinegar, oregano, the slivered onion and the remaining ¼ teaspoon each salt and pepper to the bulgur; gently toss to combine. Serve with the kofta."
+        },
+        "meal_type": "Dinner",
+        "picture": "https://healthyeater.com/wp-content/uploads/2017/04/baked-parmesan.jpg"
     },
-
     "10": {
-        "name of recipe": "Carne Asada Tacos",
-        "calories": "906",
-        "proteins": "32",
-        "carbohydrates": "48",
-        "fat": "22",
-        "ingredient": {
-            "white vinegar(cups)": "0.5",
-            "chilli powder(tablespoons)": "2",
-            "extra-virgin olive oil(tablespoons)": "2",
-            "salt(teaspoons)": "2.75",
-            "garlic powder(teaspoon)": "1",
-            "flank steak(pounds)": "2",
-            "tomatoes(pounds)": "1",
-            "jalapeno peppers": "2",
-            "chopped onions(cups)": "0.5",
-            "cilantro(cups)": "0.5",
-            "avocados": "1",
-            "lime": "1",
-            "whole-wheat flour tortillas": "16",
-            "Cotija cheese(cups)": "0.3"
-        },
-        "prep_instructions": [
-            "None"
+        "name of recipe": "Protein Cookies",
+        "calories": "170",
+        "proteins": "6",
+        "carbohydrates": "21",
+        "fat": "8",
+        "ingredient": [
+            {
+                "mashed banana(cups)": "0.75",
+                "peanut butter(cups)": "0.5",
+                "large egg": "2",
+                "pure maple syrup(tablespoons)": "2",
+                "chia seeds(tablespoons)": "2",
+                "pure vanilla extract(teaspoons)": "1.5",
+                "ground cinnamon(teaspoons)": "0.5",
+                "baking soda(teaspoons)": "1",
+                "oat flour(cup)": "0.75",
+                "toasted pepitas(cups)": "0.5",
+                "reduced-sugar dried cranberries(cups)": "0.25",
+                "raisins(cups)": "0.25"
+            }
         ],
-        "meal_type": "Dinner"
+        "prep_instructions": {
+            "1": "In a large bowl, whisk together the mashed banana and peanut butter until smooth. Stir in the eggs until evenly combined. Next, stir in the maple syrup, chia seeds, vanilla, and cinnamon. Sprinkle the baking soda, then the oat flour, over the top. Fold to combine. Last, fold in the pepitas, cranberries, and raisins. The batter will look very liquidy. Place the bowl in the refrigerator to chill and set for at least 4 hours, or cover with plastic and refrigerate overnight.",
+            "2": "When ready to bake, place a rack in the center of your oven and preheat the oven to 375 degrees F. Line a baking sheet with parchment paper or a silicone baking mat. With a large cookie scoop or spoon, portion the batter by 1/4 cupfuls onto the prepared cookie sheet. If needed, shape them lightly with your fingers so that they are round and slightly flat on top.  Bake for 12 to 14 minutes, until the cookies feel dry and set on the top and edges and a toothpick inserted into the center comes out clean. Let cool on the pan for 10 minutes, then transfer to a wire rack to finish cooling completely."
+        },
+        "meal_type": "Snack",
+        "picture": "https://healthyeater.com/wp-content/uploads/2017/05/protein-cookies.jpg"
     },
     "11": {
-        "name of recipe": "Carne Asada Tacos",
-        "calories": "306",
-        "proteins": "32",
-        "carbohydrates": "48",
-        "fat": "22",
-        "ingredient": {
-            "white vinegar(cups)": "0.5",
-            "chilli powder(tablespoons)": "2",
-            "extra-virgin olive oil(tablespoons)": "2",
-            "salt(teaspoons)": "2.75",
-            "garlic powder(teaspoon)": "1",
-            "flank steak(pounds)": "2",
-            "tomatoes(pounds)": "1",
-            "jalapeno peppers": "2",
-            "chopped onions(cups)": "0.5",
-            "cilantro(cups)": "0.5",
-            "avocados": "1",
-            "lime": "1",
-            "whole-wheat flour tortillas": "16",
-            "Cotija cheese(cups)": "0.3"
-        },
-        "prep_instructions": [
-            "None"
+        "name of recipe": "Coconut Rice with Turkey Patties",
+        "calories": "313",
+        "proteins": "25",
+        "carbohydrates": "28",
+        "fat": "12",
+        "ingredient": [
+            {
+                "papaya chunks(cups)": "0.7",
+                "long grain white rice(cups)": "1",
+                "water(cups)": "2",
+                "lean ground turkey(pounds)": "1",
+                "frozen green peas(cups)": "0.5",
+                "frozen corn(cups)": "0.25",
+                "coconut milk(cups)": "0.25",
+                "baby spinach": "4",
+                "cherry tomatoes": "20",
+                "salt(teaspoons)": "1",
+                "black pepper(teaspoons)": "1",
+                "cumin(teaspoons)": "1",
+                "onion(teaspoons)": "1",
+                "garlic powder(teaspoons)": "1",
+                "turmeric(teaspoons)": "0.5"
+            }
         ],
-        "meal_type": "Dinner"
+        "prep_instructions": {
+            "1": "In a pot combine 1 cup rice and 2 cups of water. Close the lid and cook for 25–30 minutes or until the rice absorbs the water (over low heat). Set aside.",
+            "2": "In a big bowl add ground turkey, green peas, corn and seasonings. Mix well with a spatula or use your hands :) Scoop ground turkey mixture into a measuring spoon/cup/tool for each patties. Roll and press with your hands for little patties.",
+            "3": "Preheat a non-stick pan over medium heat. Spray olive oil and cook patties 5 minutes per side (Do not burn them).",
+            "4": "After patties are ready, use the same pan for baby spinach. Spray coconut/olive oil and sautée baby spinach for 2 -3 minutes.",
+            "5": "After baby spinach, use the same pan again for the fried coconut-papaya rice! :) Spray pan with coconut oil spray (we want to add a tropical flavor). Add 2 cups of cooked rice and coconut milk. Stir & cook 3 minutes. Add in the papaya chunks. Stir & cook another 3 minutes.",
+            "6": "Serve everything evenly into containers with cherry tomatoes."
+        },
+        "meal_type": "Dinner",
+        "picture": "https://healthyeater.com/wp-content/uploads/2017/05/turkey-patties.jpg"
+    },
+    "12": {
+        "name of recipe": "Chicken & Avocado Burritos",
+        "calories": "519",
+        "proteins": "40",
+        "carbohydrates": "37.2",
+        "fat": "24",
+        "ingredient": [
+            {
+                "burrito sized tortilla": "4",
+                "sliced cooked chicken(pounds)": "1",
+                "large avocado": "1",
+                "Monterey Jack cheese(cups)": "1",
+                "salsa verde(cups)": "0.25",
+                "sour cream(cups)": "0.25",
+                "cilantro(tablespoons)": "2"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Assemble the burritos, optionally toast, and enjoy!"
+        },
+        "meal_type": "Dinner",
+        "picture": "https://healthyeater.com/wp-content/uploads/2017/05/chicken-burritos.png"
+    },
+    "13": {
+        "name of recipe": "Pineapple Chipotle Salmon Tostadas",
+        "calories": "283",
+        "proteins": "13",
+        "carbohydrates": "13",
+        "fat": "17",
+        "ingredient": [
+            {
+                "fresh salmon(pounds)": "1",
+                "smoked paprika(teaspoons)": "1",
+                "garlic powder(teaspoons)": "0.5",
+                "chipotle chili powder(teaspoons)": "0.25",
+                "sea salt(teaspoons)": "0.5",
+                "canola oil(tablespoons)": "1",
+                "corn tortilla": "6",
+                "fresh diced pineapple(cups)": "1.75",
+                "diced red pepper(cups)": "0.5",
+                "finely diced red onion(cups)": "0.25",
+                "chopped fresh cilantro(cups)": "0.25",
+                "minced chipotle pepper in adobe sauce(tablespoons)": "1",
+                "fresh lime juice(tablespoons)": "1",
+                "avocado": "3"
+            }
+        ],
+        "prep_instructions": {
+            "1": "In a medium bowl add, diced pineapple, red pepper, red onion, cilantro, chipotle pepper, lime juice, and salt to taste. Lightly toss to mix.",
+            "2": "In a small bowl add, avocado, juice of 1 lime, and salt to taste. Gently smash the avocado and stir, it will look like a chunky guacamole. Set both the pineapple salsa and smashed avocado aside.",
+            "3": "Remove salmon and bring to room temperature, pat dry.",
+            "4": "In a small bowl add smoked paprika, garlic powder, chipotle chili powder, and sea salt. Stir. Season the flesh side of salmon with seasoning. Rub mixture into salmon to completely cover it.",
+            "5": "Heat large skillet to medium high heat.",
+            "6": "Add canola oil to the pan. Place salmon on pan flesh side down. Saute for 4-6 minutes. Using a flat spatula gently flip the salmon and saute the on the skin side for another 4-6 minutes until crispy. You’ll know the salmon is done when it starts to turn opaque or if the fish feels firm instead of spongy when you touch it. Remove from the pan and let sit.",
+            "7": "Add tortillas directly on the burners and brown until crispy. You want the tortilla to be like a hard shell taco but not burnt.",
+            "8": "With a fork, gently flake the salmon apart.",
+            "9": "Assemble the tostadas. Start with tortilla on the bottom, smear 1-2 tablespoons of avocado on tostada, pile shredded salmon on top, and finish with pineapple salsa.",
+            "10": "Finish with a squeeze of fresh lime juice and serve!"
+        },
+        "meal_type": "Lunch",
+        "picture": "https://healthyeater.com/wp-content/uploads/2017/05/pineapple-tostadas.jpg"
+    },
+    "14": {
+        "name of recipe": "Creamy Beef Stroganoff",
+        "calories": "281",
+        "proteins": "33",
+        "carbohydrates": "17",
+        "fat": "9",
+        "ingredient": [
+            {
+                "diced beef(pounds)": "2.5",
+                "sliced mushrooms(grams)": "250",
+                "water(millilitres)": "250",
+                "sliced onions": "1",
+                "Worcestershire sauce(teaspoons)": "1",
+                "garlic(grams)": "10",
+                "cauliflower(grams)": "600"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Steam cauliflower in a large pot of water over high heat. Cook until cauliflower is completely soft.",
+            "2": "While you wait for the cauliflower to soften, switch crockpot to high. Once the base is hot, add your onions and beef to the pot to start browning the meat and sautéing the onions. Salt to taste.",
+            "3": "Turn crockpot down to low. Add mushrooms and water.",
+            "4": "Drain your cauliflower and put it in a food processor with the garlic. The cauliflower should be soft enough to puree without adding any liquids.",
+            "5": "Empty the cauliflower into the crockpot with the rest of your stew. The cauliflower creates the creamy texture and takes on the flavor of the beef, mushrooms and onion. Delicious!",
+            "6": "Add a tsp. of Worcestershire sauce and stir the pot until all ingredients are well combined.",
+            "7": "Leave on low for 5 - 8 hours."
+        },
+        "meal_type": "Dinner",
+        "picture": "https://healthyeater.com/wp-content/uploads/2017/05/beef-stroganoff.jpg"
+    },
+    "15": {
+        "name of recipe": "Breakfast Caprese with Soft-Boiled Eggs",
+        "calories": "243",
+        "proteins": "26",
+        "carbohydrates": "7",
+        "fat": "27",
+        "ingredient": [
+            {
+                "large egg": "2",
+                "fresh mozzarella(ounces)": "2",
+                "medium tomato": "1",
+                "extra-virgin olive oil(teaspoons)": "1",
+                "fresh basil leaves": "3",
+                "fresh ground black pepper(teaspoons)": "1"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Bring a small pot of water to a boil. Using a long-handled spoon, gently lower the eggs into the water. Roughly dropping them in can cause the shells to crack on the bottom of the pot.",
+            "2": "Turn the heat down to a gentle simmer and set a timer for 6 minutes. Carefully remove the cooked eggs and submerge in an ice bath or run under cold water until cool enough to handle. Tap each egg gently on the counter and roll to crack the shell all over. Peel the shell off.",
+            "3": "Arrange the mozzarella and tomato slices on a plate and nestle the eggs into the center so they’re secure. Drizzle with the olive oil, sprinkle with basil, season with salt and pepper and slice open the eggs so that the yolk runs all over."
+        },
+        "meal_type": "Breakfast",
+        "picture": "https://purewows3.imgix.net/images/articles/2019_03/breakfast-caprese-recipe.jpg?auto=format,compress&cs=strip"
+    },
+    "16": {
+        "name of recipe": "Vegan Spiced Blueberry Breakfast Cake",
+        "calories": "325",
+        "proteins": "10",
+        "carbohydrates": "52",
+        "fat": "11",
+        "ingredient": [
+            {
+                "unsweetened applesauce(cups)": "1",
+                "pure maple syrup(cups)": "0.25",
+                "coconut sugar(cups)": "0.5",
+                "almond butter(cups)": "0.5",
+                "unsweetened almond milk(cups)": "1",
+                "pure vanilla extract(teaspoons)": "1.5",
+                "whole-grain spelt flour(cups)": "1.75",
+                "old-fashioned rolled oats(cups)": "0.5",
+                "ground cinnamon(teaspoons)": "2",
+                "baking powder(teaspoons)": "1.5",
+                "ground ginger(teaspoons)": "1",
+                "ground nutmeg(teaspoons)": "0.5",
+                "ground allspice(teaspoons)": "0.5",
+                "baking soda(teaspoons)": "0.25",
+                "fine sea salt(teaspoons)": "0.25",
+                "fresh blueberries(cups)": "1.5",
+                "shelled pistachios(cups)": "0.5"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Preheat the oven to 350°F. Line a 9-by-5-inch loaf pan with parchment paper, letting the paper extend a few ",
+            "2": "In a medium bowl, whisk together the applesauce, maple syrup, coconut sugar, almond butter, almond milk and vanilla extract until smooth.",
+            "3": "In a large bowl, combine 1¾ cups of the spelt flour, the rolled oats, cinnamon, baking powder, ginger, nutmeg, allspice, baking soda and salt.",
+            "4": "Pour the wet ingredients into the dry, stirring to combine with a wooden spoon until well incorporated.",
+            "5": "In a small bowl, combine the blueberries with the remaining 2 tablespoons spelt flour, tossing to coat (this prevents the blueberries from sinking to the bottom of the cake). Using a rubber spatula, fold the blueberries and chopped pistachios into the cake batter. Pour the batter into the prepared loaf pan.",
+            "6": "Bake the loaf until a toothpick inserted into the center comes out clean, 55 to 60 minutes. Allow to cool in the pan on top of a wire rack, then lift the bread out of the pan using the parchment as handles. Serve warm or at room temperature."
+        },
+        "meal_type": "Breakfast",
+        "picture": "https://purewows3.imgix.net/images/articles/2019_03/vegan-spiced-blueberry-breakfast-cake-recipe.jpg?auto=format,compress&cs=strip"
+    },
+    "17": {
+        "name of recipe": "Mini Spanish Tortilla with Zucchini",
+        "calories": "817",
+        "proteins": "34",
+        "carbohydrates": "56",
+        "fat": "52",
+        "ingredient": [
+            {
+                "medium russet potato": "1",
+                "extra-virgin olive oil(tablespoons)": "2",
+                "onion": "1",
+                "zucchini": "1",
+                "ground black pepper(teaspoons)": "1",
+                "large egg": "3",
+                "grated Manchego cheese(tablespoons)": "2"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Preheat the oven to 400°F.",
+            "2": "In a medium pot, cover the potato with at least 1 inch of water and bring to a boil over medium-high heat. Boil until the potato is fork-tender, 22 to 25 minutes.",
+            "3": "Drain the potato, slice it into thin rounds and set aside.",
+            "4": "Heat the olive oil in a small, oven-safe skillet over medium heat. Add the onion and zucchini; season with salt and pepper. Sauté until tender, about 4 minutes.",
+            "5": "Add the potato slices and sauté until all the veggies are lightly browned, 5 to 7 minutes. Spread the vegetables into an even layer in the base of the pan. Remove the skillet from the heat.",
+            "6": "Whisk the eggs together in a medium bowl and pour them over the vegetables. Top the eggs with the cheese.",
+            "7": "Transfer the skillet to the oven and bake until the eggs are set and the potato and zucchini slices on the top are golden brown, 12 to 15 minutes.",
+            "8": "Serve the tortilla warm or at room temperature with the side salad."
+        },
+        "meal_type": "Breakfast",
+        "picture": "https://purewows3.imgix.net/images/articles/2019_03/Mini_Spanish_Tortilla_With_Zucchini_Recipe.jpg?auto=format,compress&cs=strip"
+    },
+    "18": {
+        "name of recipe": "Green Shakshuka",
+        "calories": "251",
+        "proteins": "17",
+        "carbohydrates": "10",
+        "fat": "17",
+        "ingredient": [
+            {
+                "extra-virgin olive oil(tablespoons)": "2",
+                "Minced onion": "1",
+                "minced garlic clove": "2",
+                "seeded and minced jalapeno": "1",
+                "spinach(pound)": "1",
+                "dried cumin(teaspoons)": "1",
+                "coriander(teaspoons)": "0.75",
+                "salt(teaspoons)": "0.75",
+                "harissa(tablespoons)": "2",
+                "vegetable broth(cups)": "0.5",
+                "large egg": "8"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Preheat the oven to 350°F.",
+            "2": "In a large, oven-safe skillet, heat the olive oil over medium heat. Add the onion and sauté until tender, 4 to 5 minutes. Add the garlic and jalapeño, then sauté until fragrant, 1 minute more.",
+            "3": "Stir in the spinach and cook until fully wilted if using fresh, 4 to 5 minutes, or until heated through if thawed from frozen, 1 to 2 minutes.",
+            "4": "Season with cumin, coriander, salt, pepper and harissa. Cook about 1 minute, until fragrant.",
+            "5": "Transfer the mixture to the bowl of a food processor or a blender and puree until coarse. Add the broth and puree until thick and smooth.",
+            "6": "Wipe out the skillet and grease it with nonstick cooking spray. Pour the spinach mixture back into the pan and use a wooden spoon to make eight circular wells.",
+            "7": "Gently crack the eggs into the wells. Transfer the skillet to the oven and cook until the egg whites are fully set, but the yolks are still a little bit jiggly, 20 to 25 minutes.",
+            "8": "Sprinkle the shakshuka with parsley, cilantro and red-pepper flakes, to taste. Serve immediately."
+        },
+        "meal_type": "Breakfast",
+        "picture": "https://purewows3.imgix.net/images/articles/2019_03/Green_Shaksuka_Recipe.jpg?auto=format,compress&cs=strip"
+    },
+    "19": {
+        "name of recipe": "Hearty Roasted Veggie Salad with Chicken",
+        "calories": "323",
+        "proteins": "23",
+        "carbohydrates": "28",
+        "fat": "11",
+        "ingredient": [{
+            "large sweet potato": "1",
+            "large beet root": "1",
+            "large onion": "1",
+            "large red bell pepper": "1",
+            "medium skinless chicken breasts": "2",
+            "small cucumber": "1",
+            "mixed green leaf lettuce(cups)": "6",
+            "balsamic vinegar(cups)": "0.25",
+            "thyme(teaspoons)": "0.5",
+            "garlic salt(teaspoons)": "0.5",
+            "olive oil(tablespoons)": "3"
+        }],
+    "prep_instructions": {
+        "1": "Wash and cube the sweet potato with the skin on. Then wash, peel, and cube the beet root. In a bowl toss both with some of the olive oil, balsamic, thyme, and garlic salt.",
+        "2": "On a large parchment paper lined baking tray spread these evenly over the entire pan. Place in a 380° F (190° C) oven for about 75 minutes.",
+        "3": "Cut up the onion and red bell pepper into medium sized pieces. In the bowl, now toss these with some olive oil, balsamic, thyme, and garlic salt.",
+        "4": "On a large parchment paper lined baking tray, spread the onion and pepper pieces evenly over the entire pan. Place in the oven for the last 30 minutes of the sweet potato and beet root’s cooking time.",
+        "5": "While the veggies are roasting prepare the salad, cut the cucumber, and divide evenly over 2 or 3 large salad bowls.",
+        "6": "Butterfly the chicken breasts and coat with a little olive oil and salt & pepper. Cook on a hot grill about 5 minutes on each side. When cooked cut the chicken into strips.",
+        "7": "When the veggies are roasted, divide them evenly over the beds of salad and then top each with the chicken strips.",
+        "8": "Serve with your favorite dressing. Works well with a balsamic vinaigrette, ranch, or even honey mustard."
+    },
+    "meal_type": "Dinner",
+    "picture": "https://healthyeater.com/wp-content/uploads/2014/12/Roasted-Veggie-Salad.jpg"
+},
+"20": {
+    "name of recipe": "Boneless Turkey Burgers with Savory Warm Relish",
+    "calories": "258",
+    "proteins": "23",
+    "carbohydrates": "10",
+    "fat": "13",
+    "ingredient": [{
+        "ground turkey(pounds)": "0.25",
+        "medium onion": "1",
+        "thinkly sliced red bell pepper": "1",
+        "shredded red cabbage(cups)": "3",
+        "olive oil(tablespoons)": "1",
+        "balsamic vinegar(cups)": "0.25",
+        "garlic salt(teaspoons)": "0.25",
+        "large leafs of lettuce": "4"
     }
+],
+"prep_instructions": {
+    "1": "Wash and dry the lettuce leaves.",
+    "2": "In a large skillet sauté the onion, pepper, and red cabbage with the olive oil until soft.",
+    "3": "Add the garlic salt and balsamic vinegar and allow to simmer until the vinegar and veggies are shiny and caramelized. Stir often. (Most of the liquid will have cooked off).",
+    "4": "Keep this relish warm.",
+    "5": "Grill or pan fry 4 quarter pound turkey burgers until just done. (Cooking them too long will make them dry) Usually 4 minutes on each side on a hot grill is sufficient, but a little longer if you are using the frozen type.",
+    "6": "Now place a turkey burger on the stem end of the lettuce leaf, top with a generous portion of the warm relish."
+},
+"meal_type": "Lunch",
+"picture": "https://healthyeater.com/wp-content/uploads/2017/05/Turkey-Burgers.jpg"
+}
 }

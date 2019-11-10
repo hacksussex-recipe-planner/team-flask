@@ -38,9 +38,9 @@ class DataLoader_Mixin():
             for i in range(self.meals_per_day):
                 key = random.sample(dict_temp.keys(), 1)[0]
                 instance.append([
-                    key, int(dict_temp[key]["calories"]),
-                    int(dict_temp[key]["proteins"]), int(dict_temp[key]["carbohydrates"]),
-                    int(dict_temp[key]["fat"])
+                    key, int(float(dict_temp[key]["calories"])),
+                    int(float(dict_temp[key]["proteins"])), int(float(dict_temp[key]["carbohydrates"])),
+                    int(float(dict_temp[key]["fat"]))
                 ])
             return ind(instance)
 
@@ -51,9 +51,9 @@ class DataLoader_Mixin():
             for i in range(self.meals_per_day):
                 key = random.sample(dict_temp.keys(), 1)[0]
                 instance.append([
-                    key, int(dict_temp[key]["calories"]),
-                    int(dict_temp[key]["proteins"]), int(dict_temp[key]["carbohydrates"]),
-                    int(dict_temp[key]["fat"])
+                    key, int(float(dict_temp[key]["calories"])),
+                    int(float(dict_temp[key]["proteins"])), int(float(dict_temp[key]["carbohydrates"])),
+                    int(float(dict_temp[key]["fat"]))
                 ])
             return instance[0]
 
@@ -63,7 +63,7 @@ class GeneticAlgorithm(DataLoader_Mixin):
         super().__init__()
         self.ind_size = ind_size
         # 0, because ID needs to be stored
-        creator.create("FitnessMulti", base.Fitness, weights=(0, -5, -0.5, -0.5, -0.5))
+        creator.create("FitnessMulti", base.Fitness, weights=(0, -1, -0.5, -0.5, -0.5))
         creator.create("Individual", list, fitness=creator.FitnessMulti)
         
         self.toolbox = base.Toolbox()
@@ -81,14 +81,12 @@ class GeneticAlgorithm(DataLoader_Mixin):
     def run_algorithm(self, file_path: str, json_file) -> dict():
         super().data_load(file_path)
         super().model_input_load(json_file)
-        pop = self.toolbox.population(n=300)[0]      
-        CXPB, MUTPB, NGEN = 0.5, 0.2, 20        
+        pop = self.toolbox.population(n=100)[0]      
+        CXPB, MUTPB, NGEN = 0.5, 0.5, 5        
         # Evaluate the entire population
         fitnesses = list(map(self.toolbox.evaluate, pop))
         for ind, fit in zip(pop, fitnesses):
             ind.fitness.values = fit   
-        print(f"fitnesses[0]: {fitnesses[0]}, fitnesses[1]: {fitnesses[1]}")
-        print(f"pop[0]: {pop[0]} \n pop[1]: {pop[1]}\n pop[0]>pop[1]?: {pop[0]>pop[1]}")
         
         for g in range(NGEN):
             # Select the next generation individuals
@@ -116,7 +114,18 @@ class GeneticAlgorithm(DataLoader_Mixin):
                 ind.fitness.values = fit
 
             # The population is entirely replaced by the offspring
-            pop[:] = offspring        
+            pop[:] = offspring
+            result_arr = []
+            for day in pop:
+                results_arr_temp = {"calories" : 0, "proteins" : 0, "carbs" : 0, "fat" : 0}
+                for meal in day:
+                    results_arr_temp["calories"] += meal[1]
+                    results_arr_temp["proteins"] += meal[2]
+                    results_arr_temp["carbs"] += meal[3]
+                    results_arr_temp["fat"] += meal[4]
+                result_arr.append(results_arr_temp)
+            print(f"result_array: {result_arr}")
+            print(f"Desired intake: {[self.calories, self.proteins, self.carbohydrates, self.fat]}")       
         return pop, self.convert_back_to_dict(pop)
     
     def convert_back_to_dict(self, result_arr):
@@ -176,11 +185,11 @@ if __name__ == "__main__":
     data_gen = DataLoader_Mixin()
     json_file = data_gen.data_load("./sample.json", True)
     result, _ = ga.run_algorithm("./data.json", json_file)
+    
+    
     result_arr = []
     print(result)
-
     test = []
-
     for day in result:
         results_arr_temp = {"calories" : 0, "proteins" : 0, "carbs" : 0, "fat" : 0}
         for meal in day:
