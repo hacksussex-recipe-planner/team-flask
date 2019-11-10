@@ -550,58 +550,349 @@
         "proteins": "23",
         "carbohydrates": "28",
         "fat": "11",
-        "ingredient": [{
-            "large sweet potato": "1",
-            "large beet root": "1",
-            "large onion": "1",
-            "large red bell pepper": "1",
-            "medium skinless chicken breasts": "2",
-            "small cucumber": "1",
-            "mixed green leaf lettuce(cups)": "6",
-            "balsamic vinegar(cups)": "0.25",
-            "thyme(teaspoons)": "0.5",
-            "garlic salt(teaspoons)": "0.5",
-            "olive oil(tablespoons)": "3"
-        }],
-    "prep_instructions": {
-        "1": "Wash and cube the sweet potato with the skin on. Then wash, peel, and cube the beet root. In a bowl toss both with some of the olive oil, balsamic, thyme, and garlic salt.",
-        "2": "On a large parchment paper lined baking tray spread these evenly over the entire pan. Place in a 380° F (190° C) oven for about 75 minutes.",
-        "3": "Cut up the onion and red bell pepper into medium sized pieces. In the bowl, now toss these with some olive oil, balsamic, thyme, and garlic salt.",
-        "4": "On a large parchment paper lined baking tray, spread the onion and pepper pieces evenly over the entire pan. Place in the oven for the last 30 minutes of the sweet potato and beet root’s cooking time.",
-        "5": "While the veggies are roasting prepare the salad, cut the cucumber, and divide evenly over 2 or 3 large salad bowls.",
-        "6": "Butterfly the chicken breasts and coat with a little olive oil and salt & pepper. Cook on a hot grill about 5 minutes on each side. When cooked cut the chicken into strips.",
-        "7": "When the veggies are roasted, divide them evenly over the beds of salad and then top each with the chicken strips.",
-        "8": "Serve with your favorite dressing. Works well with a balsamic vinaigrette, ranch, or even honey mustard."
+        "ingredient": [
+            {
+                "large sweet potato": "1",
+                "large beet root": "1",
+                "large onion": "1",
+                "large red bell pepper": "1",
+                "medium skinless chicken breasts": "2",
+                "small cucumber": "1",
+                "mixed green leaf lettuce(cups)": "6",
+                "balsamic vinegar(cups)": "0.25",
+                "thyme(teaspoons)": "0.5",
+                "garlic salt(teaspoons)": "0.5",
+                "olive oil(tablespoons)": "3"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Wash and cube the sweet potato with the skin on. Then wash, peel, and cube the beet root. In a bowl toss both with some of the olive oil, balsamic, thyme, and garlic salt.",
+            "2": "On a large parchment paper lined baking tray spread these evenly over the entire pan. Place in a 380° F (190° C) oven for about 75 minutes.",
+            "3": "Cut up the onion and red bell pepper into medium sized pieces. In the bowl, now toss these with some olive oil, balsamic, thyme, and garlic salt.",
+            "4": "On a large parchment paper lined baking tray, spread the onion and pepper pieces evenly over the entire pan. Place in the oven for the last 30 minutes of the sweet potato and beet root’s cooking time.",
+            "5": "While the veggies are roasting prepare the salad, cut the cucumber, and divide evenly over 2 or 3 large salad bowls.",
+            "6": "Butterfly the chicken breasts and coat with a little olive oil and salt & pepper. Cook on a hot grill about 5 minutes on each side. When cooked cut the chicken into strips.",
+            "7": "When the veggies are roasted, divide them evenly over the beds of salad and then top each with the chicken strips.",
+            "8": "Serve with your favorite dressing. Works well with a balsamic vinaigrette, ranch, or even honey mustard."
+        },
+        "meal_type": "Dinner",
+        "picture": "https://healthyeater.com/wp-content/uploads/2014/12/Roasted-Veggie-Salad.jpg"
     },
-    "meal_type": "Dinner",
-    "picture": "https://healthyeater.com/wp-content/uploads/2014/12/Roasted-Veggie-Salad.jpg"
-},
-"20": {
-    "name of recipe": "Boneless Turkey Burgers with Savory Warm Relish",
-    "calories": "258",
-    "proteins": "23",
-    "carbohydrates": "10",
-    "fat": "13",
-    "ingredient": [{
-        "ground turkey(pounds)": "0.25",
-        "medium onion": "1",
-        "thinkly sliced red bell pepper": "1",
-        "shredded red cabbage(cups)": "3",
-        "olive oil(tablespoons)": "1",
-        "balsamic vinegar(cups)": "0.25",
-        "garlic salt(teaspoons)": "0.25",
-        "large leafs of lettuce": "4"
+    "20": {
+        "name of recipe": "Boneless Turkey Burgers with Savory Warm Relish",
+        "calories": "258",
+        "proteins": "23",
+        "carbohydrates": "10",
+        "fat": "13",
+        "ingredient": [
+            {
+                "ground turkey(pounds)": "0.25",
+                "medium onion": "1",
+                "thinkly sliced red bell pepper": "1",
+                "shredded red cabbage(cups)": "3",
+                "olive oil(tablespoons)": "1",
+                "balsamic vinegar(cups)": "0.25",
+                "garlic salt(teaspoons)": "0.25",
+                "large leafs of lettuce": "4"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Wash and dry the lettuce leaves.",
+            "2": "In a large skillet sauté the onion, pepper, and red cabbage with the olive oil until soft.",
+            "3": "Add the garlic salt and balsamic vinegar and allow to simmer until the vinegar and veggies are shiny and caramelized. Stir often. (Most of the liquid will have cooked off).",
+            "4": "Keep this relish warm.",
+            "5": "Grill or pan fry 4 quarter pound turkey burgers until just done. (Cooking them too long will make them dry) Usually 4 minutes on each side on a hot grill is sufficient, but a little longer if you are using the frozen type.",
+            "6": "Now place a turkey burger on the stem end of the lettuce leaf, top with a generous portion of the warm relish."
+        },
+        "meal_type": "Lunch",
+        "picture": "https://healthyeater.com/wp-content/uploads/2017/05/Turkey-Burgers.jpg"
+    },
+    "21": {
+        "name of recipe": "Chocolate Covered Strawberries",
+        "calories": "30",
+        "proteins": "2.75",
+        "carbohydrates": "3.5",
+        "fat": "5",
+        "ingredient": [
+            {
+                "vanilla whey(grams)": "15",
+                "sugar free pudding mix(grams)": "4",
+                "cocoa powder(grams)": "10",
+                "yogurt(grams)": "85",
+                "strawberries(grams)": "200"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Combine all dry into a bowl.",
+            "2": "Mix in yogurt to form a protein pudding.",
+            "3": "Get a sheet of wax paper and lie it on a kitchen table.",
+            "4": "Dip Strawberries in protein pudding, and drop on wax paper.",
+            "5": "Rinse/Repeat until all pudding/strawberries have been used."
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2019/06/chocolate-covered-strawberries-protein-compressor.jpg"
+    },
+    "22": {
+        "name of recipe": "Healthy Mcgriddle",
+        "calories": "200",
+        "proteins": "25",
+        "carbohydrates": "20",
+        "fat": "1.5",
+        "ingredient": [
+            {
+                "whey protein(grams)": "30",
+                "complete pancake mix(grams)": "40",
+                "splenda(grams)": "3",
+                "baking powder(grams)": "3",
+                "pudding mix(grams)": "8",
+                "egg white": "5",
+                "greek yogurt(grams)": "16",
+                "fat free cheese(slice)": "1"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Start by mixing your Dry in a bowl (Whey, Pancake Mix, Baking Powder, Splenda, SF/FF Pudding Mix)",
+            "2": "Add in Wet (Water/Egg White/ and Greek Yogurt) and stir with a spoon until batter like consistency is formed.",
+            "3": "Pre-heat griddle on a medium power which is on the stove, and spray with cooking spray.",
+            "4": "Drop in circles and let cook for 2 minutes on one side, flip, and then finish the other side and set the pancakes aside.",
+            "5": "Apply cooking spray to same skillet. Mix egg whites and set aside after cooked.",
+            "6": "Take eggs and put between pancakes and top with cheese."
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/healthy-mcgriddles.jpg"
+    },
+    "23": {
+        "name of recipe": "S'mores Protein Cake",
+        "calories": "350",
+        "proteins": "30",
+        "carbohydrates": "45",
+        "fat": "6",
+        "ingredient": [
+            {
+                "complete pancake mix(grams)": "60",
+                "chocolate protein blend(grams)": "30",
+                "sugar free pudding mix vanilla(grams)": "8",
+                "splenda(grams)": "3",
+                "baking powder(grams)": "2",
+                "egg": "1",
+                "greek yogurt(grams)": "50",
+                "vanilla protein blend(grams)": "15",
+                "Gramham crackers(grams)": "15"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Combine dry ingredients into a mixing bowl.",
+            "2": "Add wet ingredients and stir to form batter.",
+            "3": "Coat a circular tupperware container with cooking spray and transfer batter.",
+            "4": "Microwave on medium power for 3-3.5 minutes",
+            "5": "Transfer cake to a separate plate (use a fork to separate edges along tupperware)",
+            "6": "Take Vanilla Protein and add a touch of water to form a glaze in a small container.",
+            "7": "Cut small hole in top of cake, remove center, and use the glaze as a filling. It will gooze off the side of the cake hence \"lava cake\".",
+            "8": "Top with crushed up graham crackers."
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/smores-protein-cake.jpg"
+    },
+    "24": {
+        "name of recipe": "Pumpkin Spice Protein Loaves",
+        "calories": "265",
+        "proteins": "20",
+        "carbohydrates": "35",
+        "fat": "5",
+        "ingredient": [
+            {
+                "vanilla protein(grams)": "30",
+                "baking powder(grams)": "3",
+                "cinnamon(grams)": "3",
+                "splenda(grams)": "3",
+                "complete pancake mix extra fluffy(grams)": "60",
+                "sugar free pudding mix(grams)": "8",
+                "MyOatmeal.com PB lean pumpkin spice(grams)": "12",
+                "egg": "1",
+                "pumpkin(grams)": "100"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Pre-Heat oven to 350 degrees.",
+            "2": "Combine all dry ingredients in a mixing bowl.",
+            "3": "Combine wet ingredients with dry and form batter.",
+            "4": "Coat a Pyrex dish with cooking spray and fill batter into dish and place in the oven for 20-25 minutes until a toothpick comes out clean in the center.",
+            "5": "Pull out of oven and place on cooling rack. Allow to cool for 5-10 minutes."
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/pumpkin-spice-protein-loaves.jpg"
+    },
+    "25": {
+        "name of recipe": "Birthday Cake Donuts",
+        "calories": "125",
+        "proteins": "11.5",
+        "carbohydrates": "13",
+        "fat": "2.5",
+        "ingredient": [
+            {
+                "complete pancake mix(grams)": "60",
+                "vanilla whey protein(grams)": "30",
+                "sugar free pudding mix vanilla(grams)": "8",
+                "splenda(grams)": "3",
+                "baking powder(grams)": "2",
+                "egg": "1",
+                "greek yogurt(grams)": "50",
+                "vanilla whey(grams)": "15",
+                "sprinkles(grams)": "3"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Pre-Heat oven to 350 degrees.",
+            "2": "Combine dry ingredients into a mixing bowl (place some sprinkles in batter)",
+            "3": "Add wet ingredients and stir to form batter",
+            "4": "Coat a circular donut pan with cooking spray and transfer batter",
+            "5": "Bake for 12-15 minutes until a toothpick comes out clean",
+            "6": "Transfer donuts to a seperate plate",
+            "7": "Mix Whey and yogurt to form a thick pudding (this is your glaze)",
+            "8": "Take a donut, dip it into the glaze, let the remaining glaze drip over the bowl, and set it on a plate",
+            "9": "Garnish top of the donuts with sprinkles and crushed up cereal"
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/birthday-cake-donuts.jpg"
+    },
+    "26": {
+        "name of recipe": "Reese pieces Oatmeal Cookies",
+        "calories": "110",
+        "proteins": "7.5",
+        "carbohydrates": "14.5",
+        "fat": "2.5",
+        "ingredient": [
+            {
+                "extra fluffy complete pancake mix(grams)": "40",
+                "vanilla whey protein(grams)": "30",
+                "oatmeal(grams)": "40",
+                "splenda(grams)": "3",
+                "baking powder(grams)": "3",
+                "Modern Vanilla Powder(grams)": "30",
+                "sugar free pudding mix vanilla(grams)": "8",
+                "reese pieces(grams)": "14",
+                "egg": "1",
+                "greek yogurt(grams)": "25"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Pre-Heat oven to 350 degrees.",
+            "2": "Use a blender to grind oatmeal to a fine powder. Combine grinded oatmeal with dry ingredients in a mixing bowl and set aside",
+            "3": "Add wet ingredients and mix to form batter",
+            "4": "Use aluminum foil to line a baking sheet. Coat with cooking spray. Drop cookies 1 apart from each other with a spoon on coated baking sheet. Place the Reese pieces on top before baking",
+            "5": "Bake 7-9 Minutes (top with start to turn golden brown)",
+            "6": "Allow to cool for 5 minutes & Enjoy"
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/reese-pieces-oatmeal-cookies.jpg"
+    },
+    "27": {
+        "name of recipe": "sweet potato protein waffle",
+        "calories": "153",
+        "proteins": "17.5",
+        "carbohydrates": "17.5",
+        "fat": "1.5",
+        "ingredient": [
+            {
+                "sweet potato(grams)": "150",
+                "whey protein(grams)": "30",
+                "splenda(grams)": "3",
+                "baking powder(grams)": "3",
+                "egg white": "2",
+                "greek yogurt(grams)": "50"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Pre-Heat Waffle Iron.",
+            "2": "Remove skin from Sweet potato. Microwave for 1 minute and set aside.",
+            "3": "In a mixing bowl add the rest of the dry and then grate the sweet potato.",
+            "4": "Add wet ingredients to form batter",
+            "5": "Coat Waffle Iron (Once pre-heated) with cooking spray and drop batter. Cook Until All waffle batter is used."
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/sweet-potato-protein-waffle.jpg"
+    },
+    "28": {
+        "name of recipe": "Protein PB Cups",
+        "calories": "100",
+        "proteins": "12.5",
+        "carbohydrates": "3.75",
+        "fat": "3.75",
+        "ingredient": [
+            {
+                "chocolate protein powder(grams)": "30",
+                "greek yogurt(grams)": "150",
+                "peanut butter(grams)": "32"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Make Protein Pudding with Yogurt + Whey",
+            "2": "Grab a Muffin Sheet and place cupcake lines in holes",
+            "3": "Place a small layer of protein pudding on bottom and freeze for 30 minutes",
+            "4": "Pull out and add peanut butter in center freeze another 30 minutes",
+            "5": "Add final layer of Protein Pudding and freeze for another 30 minutes till they harden",
+            "6": "Pull apart the cupcake liner and enjoy"
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/protein-pb-cups.jpg"
+    },
+    "29": {
+        "name of recipe": "Asian Chicken Salad",
+        "calories": "236",
+        "proteins": "20",
+        "carbohydrates": "10",
+        "fat": "10",
+        "ingredient": [
+            {
+                "lime juice(cups)": "0.25",
+                "sesame oil(teaspoons)": "4",
+                "rice vinegar(teaspoons)": "2",
+                "soy sauce(teaspoons)": "2",
+                "fish sauce(teaspoons)": "1.5",
+                "rotisserie chicken": "1",
+                "medium carrots": "2",
+                "red cabbage(cups)": "1.25",
+                "green cabbage(cups)": "1.25",
+                "chopped peanuts(tablespoons)": "2",
+                "fresh cilantro leaves(tablespoons)": "2"
+            }
+        ],
+        "prep_instructions": {
+            "1": "In a large bowl, mix lime juice, oil, vinegar, soy sauce, and fish sauce.",
+            "2": "Remove meat from the rotisserie chicken and toss in the sauce mixture.",
+            "3": "Divide cabbage and carrots between bowls and top with chicken.",
+            "4": "Top each with peanuts and cilantro."
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/asian-chicken-salad.jpg"
+    },
+    "30": {
+        "name of recipe": "Cajun Chicken One Pot",
+        "calories": "277",
+        "proteins": "20",
+        "carbohydrates": "21",
+        "fat": "10",
+        "ingredient": [
+            {
+                "chicken breasts": "3",
+                "sweet potatoes": "4",
+                "small red onions": "2",
+                "Cajun spices(tablespoons)": "2",
+                "chicken bouillon cube": "1",
+                "olive oil(tablespoons)": "2"
+            }
+        ],
+        "prep_instructions": {
+            "1": "Rinse the chicken under running water and pat dry with paper towel.",
+            "2": "Add chicken, potatoes, garlic to a large bowl and sprinkle with salt, pepper, crumbled bouillon cube and Cajun spice.",
+            "3": "Drizzle with olive oil and toss everything to coat well.",
+            "4": "Marinate in the refrigerator for 30 minutes.",
+            "5": "Meanwhile preheat your oven to 430°F.",
+            "6": "Place in the oven and bake for 25 minutes.",
+            "7": "Add red onions then lower the oven to 360°F and bake for 15 minutes.",
+            "8": "Check for doneness, if the potatoes and chicken are soft and easily pierced with a fork, they are ready. If the chicken and vegetables have not browned up as much as you would like, just broil for 5 minutes, watching carefully not to burn the chicken."
+        },
+        "meal_type": "Snack",
+        "picture": "https://www.iifym.com/wp-content/uploads/2017/05/cajun-chicken.jpg"
     }
-],
-"prep_instructions": {
-    "1": "Wash and dry the lettuce leaves.",
-    "2": "In a large skillet sauté the onion, pepper, and red cabbage with the olive oil until soft.",
-    "3": "Add the garlic salt and balsamic vinegar and allow to simmer until the vinegar and veggies are shiny and caramelized. Stir often. (Most of the liquid will have cooked off).",
-    "4": "Keep this relish warm.",
-    "5": "Grill or pan fry 4 quarter pound turkey burgers until just done. (Cooking them too long will make them dry) Usually 4 minutes on each side on a hot grill is sufficient, but a little longer if you are using the frozen type.",
-    "6": "Now place a turkey burger on the stem end of the lettuce leaf, top with a generous portion of the warm relish."
-},
-"meal_type": "Lunch",
-"picture": "https://healthyeater.com/wp-content/uploads/2017/05/Turkey-Burgers.jpg"
-}
 }
