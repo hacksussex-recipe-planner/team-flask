@@ -117,9 +117,16 @@ class GeneticAlgorithm(DataLoader_Mixin):
 
             # The population is entirely replaced by the offspring
             pop[:] = offspring        
-
-        return pop
+        return pop, self.convert_back_to_dict(pop)
     
+    def convert_back_to_dict(self, result_arr):
+        day = result_arr[0]
+        ids = []
+        result_dict = []
+        for i in range(self.meals_per_day):
+            id = day[i][0]
+            result_dict.append(self.data[id])
+        return result_dict
 
     def run_fake_algorithm(self, file_path: str, json_file) -> dict():
         super().data_load(file_path)
@@ -168,7 +175,7 @@ if __name__ == "__main__":
     ga = GeneticAlgorithm()
     data_gen = DataLoader_Mixin()
     json_file = data_gen.data_load("./sample.json", True)
-    result = ga.run_algorithm("./data.json", json_file)
+    result, _ = ga.run_algorithm("./data.json", json_file)
     result_arr = []
     print(result)
 
@@ -183,21 +190,5 @@ if __name__ == "__main__":
             results_arr_temp["fat"] += meal[4]
         test.append(results_arr_temp)
     print(test)
-
-    """for i, sub_arr in enumerate(result):
-        results_arr_temp = {"calories" : 0, "proteins" : 0, "carbs" : 0, "fat" : 0}
-        for j in range(ga.meals_per_day):
-            results_arr_temp["calories"] += sub_arr[j][1]
-            results_arr_temp["proteins"] += sub_arr[j][2]
-            results_arr_temp["carbs"] += sub_arr[j][3]
-            results_arr_temp["fat"] += sub_arr[j][4]
- 
-        result_arr.append(results_arr_temp)"""
     print(f"result_array: {result_arr}")
     print(f"Desired intake: {[ga.calories, ga.proteins, ga.carbohydrates, ga.fat]}")
-    """
-    for i in range(3):
-        instance = ga.data_sample()
-        print(f"Evaluation metric: {ga._evaluate(instance)}\n Run on: {instance}")
-        ga._mutate(instance, indpb=[0.1])
-    """
